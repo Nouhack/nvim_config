@@ -36,6 +36,7 @@ return require('packer').startup(function(use)
         config = function() require("nvim-autopairs").setup {} end
     }
     use {
+<<<<<<< HEAD
         'nvim-tree/nvim-tree.lua',
         requires = {
             'nvim-tree/nvim-web-devicons', -- optional
@@ -44,4 +45,8 @@ return require('packer').startup(function(use)
     }
     use { 'dasupradyumna/midnight.nvim' }
     use "windwp/nvim-ts-autotag"
+=======
+        'Exafunction/codeium.vim',
+    }
+>>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
 end)
