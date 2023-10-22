@@ -49,13 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-<<<<<<< HEAD
 local package_path_str = "C:\\Users\\n_saiche\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1694082368\\share\\lua\\5.1\\?.lua;C:\\Users\\n_saiche\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1694082368\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\n_saiche\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1694082368\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\n_saiche\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1694082368\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
 local install_cpath_pattern = "C:\\Users\\n_saiche\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1694082368\\lib\\lua\\5.1\\?.so"
-=======
-local package_path_str = "/home/nouhack/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/nouhack/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/nouhack/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/nouhack/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/nouhack/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -81,52 +76,27 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   LuaSnip = {
     loaded = true,
-<<<<<<< HEAD
     path = "C:\\Users\\n_saiche\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
-=======
-    path = "/home/nouhack/.local/share/nvim/site/pack/packer/start/LuaSnip",
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-<<<<<<< HEAD
     path = "C:\\Users\\n_saiche\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
-=======
-    path = "/home/nouhack/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
-  },
-  ["codeium.vim"] = {
-    loaded = true,
-    path = "/home/nouhack/.local/share/nvim/site/pack/packer/start/codeium.vim",
-    url = "https://github.com/Exafunction/codeium.vim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
-<<<<<<< HEAD
     path = "C:\\Users\\n_saiche\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
-=======
-    path = "/home/nouhack/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
-<<<<<<< HEAD
     path = "C:\\Users\\n_saiche\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-lspconfig.nvim",
-=======
-    path = "/home/nouhack/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
     url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
-<<<<<<< HEAD
     path = "C:\\Users\\n_saiche\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
-=======
-    path = "/home/nouhack/.local/share/nvim/site/pack/packer/start/mason.nvim",
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["midnight.nvim"] = {
@@ -136,39 +106,23 @@ _G.packer_plugins = {
   },
   ["nordic.nvim"] = {
     loaded = true,
-<<<<<<< HEAD
     path = "C:\\Users\\n_saiche\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nordic.nvim",
-=======
-    path = "/home/nouhack/.local/share/nvim/site/pack/packer/start/nordic.nvim",
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
     url = "https://github.com/AlexvZyl/nordic.nvim"
   },
   ["nvim-autopairs"] = {
     config = { "\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
     loaded = true,
-<<<<<<< HEAD
     path = "C:\\Users\\n_saiche\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs",
-=======
-    path = "/home/nouhack/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
     url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
-<<<<<<< HEAD
     path = "C:\\Users\\n_saiche\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
-=======
-    path = "/home/nouhack/.local/share/nvim/site/pack/packer/start/nvim-cmp",
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-<<<<<<< HEAD
     path = "C:\\Users\\n_saiche\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
-=======
-    path = "/home/nouhack/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
@@ -178,11 +132,7 @@ _G.packer_plugins = {
   },
   ["nvim-treesitter"] = {
     loaded = true,
-<<<<<<< HEAD
     path = "C:\\Users\\n_saiche\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
-=======
-    path = "/home/nouhack/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-ts-autotag"] = {
@@ -197,47 +147,27 @@ _G.packer_plugins = {
   },
   ["packer.nvim"] = {
     loaded = true,
-<<<<<<< HEAD
     path = "C:\\Users\\n_saiche\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
-=======
-    path = "/home/nouhack/.local/share/nvim/site/pack/packer/start/packer.nvim",
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["papercolor-theme"] = {
     loaded = true,
-<<<<<<< HEAD
     path = "C:\\Users\\n_saiche\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\papercolor-theme",
-=======
-    path = "/home/nouhack/.local/share/nvim/site/pack/packer/start/papercolor-theme",
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
     url = "https://github.com/NLKNguyen/papercolor-theme"
   },
   ["plenary.nvim"] = {
     loaded = true,
-<<<<<<< HEAD
     path = "C:\\Users\\n_saiche\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
-=======
-    path = "/home/nouhack/.local/share/nvim/site/pack/packer/start/plenary.nvim",
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["rose-pine"] = {
     loaded = true,
-<<<<<<< HEAD
     path = "C:\\Users\\n_saiche\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rose-pine",
-=======
-    path = "/home/nouhack/.local/share/nvim/site/pack/packer/start/rose-pine",
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
     url = "https://github.com/rose-pine/neovim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-<<<<<<< HEAD
     path = "C:\\Users\\n_saiche\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
-=======
-    path = "/home/nouhack/.local/share/nvim/site/pack/packer/start/telescope.nvim",
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
     url = "https://github.com/nvim-telescope/telescope.nvim"
   }
 }

@@ -1,10 +1,5 @@
 -- Show file tree
-<<<<<<< HEAD
 --vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
-=======
-
-vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
->>>>>>> 5d4186b70c6faa5995055b11b7b0214c75926449
 
 
 
